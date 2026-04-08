@@ -1,21 +1,57 @@
 body {
-    font-family: Arial;
-    text-align: center;
-    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    height: 100vh;
 }
 
-h2 {
-    color: #2c3e50;
+.container {
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    color: gray;
+}
+
+input[type="file"] {
+    margin: 15px 0;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #3498db;
-    color: white;
     border: none;
+    background: #2a5298;
+    color: white;
+    border-radius: 6px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 button:hover {
-    background-color: #2980b9;
+    background: #1e3c72;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f1f8ff;
+    border-radius: 8px;
+}
+
+.result p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2a5298;
 }
